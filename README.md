@@ -1,4 +1,6 @@
-# NEVA DEVELOPMENT SLASH + PREFİX DESTEKLİ BOŞ ALTYAPI
+# NEVA DEVELOPMENT SLASH DESTEKLİ BOŞ ALTYAPI
+
+## Sadece Prefixli Veya Prefix + Slashlı İçin Discord Sunucumuza Katılın ! [Discord Sunucumuz](https://discord.gg/altyapi)
 
 # KURULUM
 
