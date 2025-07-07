@@ -25,3 +25,7 @@ node index.js
 ```
 
 **Bu Altyapı Neva Development Sunucusuna Aittir. Herhangi gibi Çalma Veya Kopyalanma Durumunda İşlem Uygulanacaktır.**
+
+```bash
+İntentleri Açmayı Unutmayınız ! Bot Sekmesinden Presence Intent, Server Members Intent, Message Content Intent Açınız.
+```
