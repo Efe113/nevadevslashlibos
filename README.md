@@ -12,7 +12,7 @@ veya
 node deploy-commands.js
 ```
 
-Botu Başlat: Her şey hazır! Botu başlatmak için terminale şunu yaz:
+Botu başlatmak için terminale şunu yaz:
 
 ```bash
 npm start
