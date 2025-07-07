@@ -23,3 +23,5 @@ veya
 ```bash
 node index.js
 ```
+
+**Bu Altyapı Neva Development Sunucusuna Aittir. Herhangi gibi Çalma Veya Kopyalanma Durumunda İşlem Uygulanacaktır.**
