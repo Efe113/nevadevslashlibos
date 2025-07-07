@@ -1,6 +1,6 @@
 .env dosyasını doldur: Discord Developer Portal'a git, bir bot oluştur (veya mevcut olanı kullan), "Bot" sekmesinden TOKEN'ını al. "OAuth2 -> General" sekmesinden CLIENT ID'sini al. Geliştirme yapacağın Discord sunucusunun ID'sini al (Sunucu adına sağ tık > ID'yi Kopyala. Bu seçenek görünmüyorsa Discord ayarlarından Geliştirici Modu'nu açmalısın).
 
-Komutları Kaydet: Terminali aç ve aşağıdaki komutu çalıştır. Bu işlemi sadece yeni komut eklediğinde veya mevcut komutların adını/açıklamasını değiştirdiğinde yapman yeterlidir.
+Terminali aç ve aşağıdaki komutu çalıştır. Bu işlemi sadece yeni komut eklediğinde veya mevcut komutların adını/açıklamasını değiştirdiğinde yapman yeterlidir.
 
 ```bash
 npm run deploy
