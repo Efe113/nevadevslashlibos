@@ -1,31 +1,36 @@
-.env dosyasını doldur: Discord Developer Portal'a git, bir bot oluştur (veya mevcut olanı kullan), "Bot" sekmesinden TOKEN'ını al. "OAuth2 -> General" sekmesinden CLIENT ID'sini al. Geliştirme yapacağın Discord sunucusunun ID'sini al (Sunucu adına sağ tık > ID'yi Kopyala. Bu seçenek görünmüyorsa Discord ayarlarından Geliştirici Modu'nu açmalısın).
+# NEVA DEVELOPMENT SLASH + PREFİX DESTEKLİ BOŞ ALTYAPI
 
-Terminali aç ve aşağıdaki komutu çalıştır. Bu işlemi sadece yeni komut eklediğinde veya mevcut komutların adını/açıklamasını değiştirdiğinde yapman yeterlidir.
+# KURULUM
 
-```bash
-npm run deploy
-```
+**İlk Olarak [Discord Developer Portal](https://discord.com/developers/applications)'dan Bir Tane Bot Oluşturun.**
 
-veya
+**Ardından Soldaki Bot Sekmesine Girin, Orada Tokeni Yenile Veya Reset Token Butonu Olacaktır Ona Basın Ve Token Alın.**
 
-```bash
-node deploy-commands.js
-```
+**O Tokeni .env dosyasında bulunan TOKEN= adlı yere yapıştırın.**
 
-Botu başlatmak için terminale şunu yaz:
+**Client ID İçin OAuth2 Sekmesine Gidin Orada Client ID Olacaktır Alın.**
+
+**Guild ID İçin Sunucunu Resmine Sağ Tıklayın Ardından Sunucu ID'sini Kopyala Basın.**
 
 ```bash
-npm start
+npm install
 ```
-
-veya
+**Bu Komutu Terminalinize Yazın Ardından**
 
 ```bash
 node index.js
 ```
+**Bu Komut İse Botu Başlatır.**
 
-**Bu Altyapı Neva Development Sunucusuna Aittir. Herhangi gibi Çalma Veya Kopyalanma Durumunda İşlem Uygulanacaktır.**
+# SLASH KOMUTLARI YÜKLEME
 
 ```bash
-İntentleri Açmayı Unutmayınız ! Bot Sekmesinden Presence Intent, Server Members Intent, Message Content Intent Açınız.
+node deploy-slash-commands.js
 ```
+**Yazarak Yapabilirsiniz.**
+
+# ÖNEMLİ NOTLAR
+
+### **Bu Botun Çalışabilmesi İçin Message Intent Açık Olması Zorundadır !**
+
+## Bu Altyapı NEVA DEVELOPMENT Tarafından Yapılmıştır. Çalma Veya Kopyalamak Yasaktır !
